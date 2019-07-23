@@ -1,0 +1,6 @@
+Resources:  
+  Ec2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.nano
+      ImageId: ami-0d8f6eb4f641ef691
