@@ -1,0 +1,7 @@
+   Resources:
+      EC2:
+        Type: AWS::EC2::Instance
+        Properties: 
+           ImageId: "ami-00c03f7f7f2ec15c3"
+           InstanceType: "t2.micro"
+           KeyName: "MyNewKP"
